@@ -26,6 +26,10 @@ void main() {
         case '/':
           print(calculator.Divid(num1, num2));
           break;
+
+        default:
+          print('you entered a wrong operation');
+          break;
       }
     }
   }
