@@ -9,6 +9,7 @@ void main() {
     var num2 = int.parse(stdin.readLineSync() ?? "");
     if (num1 == 0) {
       print('exited');
+      break;
     } else {
       switch (op) {
         case '+':
