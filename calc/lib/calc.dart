@@ -4,9 +4,9 @@ void main() {
   Calc calculator = Calc();
   bool run = true;
   while (run) {
-    var num1 = int.parse(stdin.readLineSync()??"");
+    var num1 = int.parse(stdin.readLineSync() ?? "");
     var op = stdin.readLineSync();
-    var num2 = int.parse(stdin.readLineSync()??"");
+    var num2 = int.parse(stdin.readLineSync() ?? "");
     if (num1 == 0) {
       print('exited');
     } else {
