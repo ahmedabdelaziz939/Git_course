@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+limport 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
@@ -151,7 +151,7 @@ GestureDetector(
 //           size: 35.0,
 //           color: Colors.grey,
 //         ),
-//       onTap: () => _launchURL(url),
+//       onTap: () =>tap,
 //       )
 //       ),
 //     );
