@@ -1,4 +1,4 @@
-limport 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
@@ -158,90 +158,90 @@ GestureDetector(
 //   }
 // }
 //  //            Card(
-    //   margin: const EdgeInsets.symmetric(
-    //     vertical: 10.0,
-    //     horizontal: 15.0,
-    //   ),
-    //   color: Colors.blueGrey[900],
-    //   child: ListTile(
-    //     title: Text(
-    //       '+201151093063',
-    //       style: TextStyle(
-    //         color: Colors.white,
-    //         fontSize: 22,
-    //       ),
-    //     ),
-    //     leading: Icon(
-    //         Icons.phone,
-    //       size: 35.0,
-    //     ),
-    //     tap: ()=> _launchURL('tel:+201151093063'),
+//       margin: const EdgeInsets.symmetric(
+//         vertical: 10.0,
+//         horizontal: 15.0,
+//       ),
+//       color: Colors.blueGrey[900],
+//       child: ListTile(
+//         title: Text(
+//           '+201151093063',
+//           style: TextStyle(
+//             color: Colors.white,
+//             fontSize: 22,
+//           ),
+//         ),
+//         leading: Icon(
+//             Icons.phone,
+//           size: 35.0,
+//         ),
+//         tap: ()=> _launchURL('tel:+201151093063'),
         
-    //   ),
-    // )
-              // Card(
-              //   margin: const EdgeInsets.symmetric(
-              //     vertical: 10.0,
-              //     horizontal: 15.0,
-              //   ),
-              //   color: Colors.blueGrey[900],
-              //   child: ListTile(
-              //     leading: Icon(
-              //       Icons.facebook,
-              //       size: 40.0,
-              //     ),
-              //     title: Text(
-              //       'ahmedabdelaziz939@yahoo.com',
-              //       style: TextStyle(
-              //         color: Colors.white,
-              //         fontSize: 22,
-              //       ),
-              //     ),
-              //     tap: () =>
-              //         _launchURL('https://www.facebook.com/ahmed201710'),
-              //   ),
-              // ),
-              // Card(
-              //   margin: const EdgeInsets.symmetric(
-              //     vertical: 10.0,
-              //     horizontal: 15.0,
-              //   ),
-              //   color: Colors.blueGrey[900],
-              //   child: ListTile(
-              //     leading: Icon(
-              //       FontAwesome.instagram,
-              //       size: 40.0,
-              //     ),
-              //     title: Text(
-              //       '_ahmedabdelaziz_17',
-              //       style: TextStyle(
-              //         color: Colors.white,
-              //         fontSize: 22,
-              //       ),
-              //     ),
-                  // tap: () => _launchURL(
-                  //     'https://www.instagram.com/_ahmedabdelaziz_17/'),
-              //   ),
-              // ),
-              // Card(
-              //   margin: const EdgeInsets.symmetric(
-              //     vertical: 10.0,
-              //     horizontal: 15.0,
-              //   ),
-              //   color: Colors.blueGrey[900],
-              //   child: ListTile(
-              //     leading: Icon(
-              //       FontAwesome.github,
-              //       size: 40.0,
-              //     ),
-              //     title: Text(
-              //       'ahmedabdelaziz939',
-              //       style: TextStyle(
-              //         color: Colors.white,
-              //         fontSize: 22,
-              //       ),
-              //     ),
-                  // tap: () => _launchURL(
-                  //     'https://github.com/ahmedabdelaziz939/Git_course'),
-              //   ),
-              // ),
+//       ),
+//     )
+//               Card(
+//                 margin: const EdgeInsets.symmetric(
+//                   vertical: 10.0,
+//                   horizontal: 15.0,
+//                 ),
+//                 color: Colors.blueGrey[900],
+//                 child: ListTile(
+//                   leading: Icon(
+//                     Icons.facebook,
+//                     size: 40.0,
+//                   ),
+//                   title: Text(
+//                     'ahmedabdelaziz939@yahoo.com',
+//                     style: TextStyle(
+//                       color: Colors.white,
+//                       fontSize: 22,
+//                     ),
+//                   ),
+//                   tap: () =>
+//                       _launchURL('https://www.facebook.com/ahmed201710'),
+//                 ),
+//               ),
+//               Card(
+//                 margin: const EdgeInsets.symmetric(
+//                   vertical: 10.0,
+//                   horizontal: 15.0,
+//                 ),
+//                 color: Colors.blueGrey[900],
+//                 child: ListTile(
+//                   leading: Icon(
+//                     FontAwesome.instagram,
+//                     size: 40.0,
+//                   ),
+//                   title: Text(
+//                     '_ahmedabdelaziz_17',
+//                     style: TextStyle(
+//                       color: Colors.white,
+//                       fontSize: 22,
+//                     ),
+//                   ),
+//                   tap: () => _launchURL(
+//                       'https://www.instagram.com/_ahmedabdelaziz_17/'),
+//                 ),
+//               ),
+//               Card(
+//                 margin: const EdgeInsets.symmetric(
+//                   vertical: 10.0,
+//                   horizontal: 15.0,
+//                 ),
+//                 color: Colors.blueGrey[900],
+//                 child: ListTile(
+//                   leading: Icon(
+//                     FontAwesome.github,
+//                     size: 40.0,
+//                   ),
+//                   title: Text(
+//                     'ahmedabdelaziz939',
+//                     style: TextStyle(
+//                       color: Colors.white,
+//                       fontSize: 22,
+//                     ),
+//                   ),
+//                   tap: () => _launchURL(
+//                       'https://github.com/ahmedabdelaziz939/Git_course'),
+//                 ),
+//               ),
